@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     unique_identifier_msgs
     nav_msgs
     builtin_interfaces
+    autoware_common_msgs
   ADD_LINTER_TESTS
 )
 
