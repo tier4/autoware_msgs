@@ -13,12 +13,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrajectoryPoint.msg"
   "msg/Path.msg"
   "msg/PathPoint.msg"
+  "srv/SetPreferredPrimitive.srv"
   DEPENDENCIES
     geometry_msgs
     std_msgs
     unique_identifier_msgs
     nav_msgs
     builtin_interfaces
+    autoware_common_msgs
   ADD_LINTER_TESTS
 )
 
