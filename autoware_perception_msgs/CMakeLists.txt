@@ -13,7 +13,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PredictedObjectKinematics.msg"
   "msg/PredictedObjects.msg"
   "msg/PredictedPath.msg"
-  "msg/PredictedTrafficLightState.msg"
   "msg/Shape.msg"
   "msg/TrackedObject.msg"
   "msg/TrackedObjectKinematics.msg"
